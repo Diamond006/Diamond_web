@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Index bosh fayl uchun bo'lim */
+.hero {
+    height: 135vh;
+    width: 100%;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about_link{
+    text-decoration: none;
+    color: white;
+    cursor: grab;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+
+h3 {
+    color: red;
+    margin-top: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+
+}
+
+span {
+    color: #ea1538;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: .3s;
+
+}
+
+button {
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 65px;
+    padding: 0 200px;
+
+
+}
+
+a img {
+    width: 210px;
+    height: 120px;
+
+}
+
+.box-item {
+    font-weight: bold;
+    margin: 10px;
+    width: 215px;
+    height: 290px;
+    border: 2px black SOLID;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    transition: .3s;
+
+
+}
+
+.box-item img {
+    padding: 5px;
+}
+
+.box-item:hover {
+    transform: scale(1.3);
+}
+
+.zor {
+    color: rgb(108, 159, 181);
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.zor:hover {
+    color: #cb588dc5;
+
+}
+
+/* Film uchun bo'lim */
+.containerc {
+    height: 160vh;
+    width: 100%;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.film_link{
+    text-decoration: none;
+    cursor: grab;
+}
+.logos {
+    color: white;
+    font-size: 35px;
+
+
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 65px;
+    padding: 0 200px;
+}
+
+.buk {
+
+    font-weight: bold;
+    margin: 10px;
+    width: 280px;
+    height: 290px;
+    border: 2px black SOLID;
+    border-radius: 5px;
+    background-color: rgb(66, 39, 5);
+    transition: .3s;
+}
+
+.buk:hover {
+    transform: scale(1.5);
+}
+
+/* Music uchun bo'lim */
+
+.Muztop {
+    height: 174vh;
+    width: 100%;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.music_link{
+    text-decoration: none;
+    cursor: grab;
+}
+.muz {
+
+    font-weight: bold;
+    margin: 10px;
+    width: 310px;
+    height: 150px;
+    border: 2px black SOLID;
+    border-radius: 10px;
+    background-color: rgb(92, 75, 90);
+    transition: .3s;
+}
+
+.muz:hover {
+    transform: scale(1.3);
+}
+
+.Music {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 65px;
+}
+
+/* Rasm uchun bo'lim b */
+.images {
+    height: 175vh;
+    width: 100%;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Rasm_link{
+    text-decoration: none;
+    cursor: grab;
+}
+.img {
+    font-weight: bold;
+    margin: 10px;
+    width: 312px;
+    height: 335px;
+    border: 2px black SOLID;
+    border-radius: 8px;
+    background-color: rgb(92, 75, 90);
+    transition: .3s;
+}
+
+.img:hover {
+    transform: scale(2.1);
+}
+
+img {
+    width: 310px;
+}
+
+.imgo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 65px;
+}
+
+/* Viodeo uchun bo'lim */
+.Vidik {
+    height: 125vh;
+    width: 101%;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Video_link{
+    text-decoration: none;
+    cursor: grab;
+}
+
+
+.video {
+    font-weight: bold;
+    margin: 10px;
+    width: 283px;
+    height: 288px;
+    border: 2px black SOLID;
+    border-radius: 6px;
+    background-color: rgb(133, 110, 82);
+    transition: .3s;
+}
+
+.video:hover {
+    transform: scale(1.6);
+}
+
+.vid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 65px;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.hera {
+    height: 100vh;
+    width: 100%;
+    background-image: url(about.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8%;
+    padding-left: 8%;
+
+
+}
+
+span {
+    color: #f9004d;
+
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+
+}
+
+.navbar ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+
+}
+
+.but {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+
+
+}
+
+.but:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+
+.eh1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+
+}
+
+.eh3 {
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.eh4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.about form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+
+.about form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+
+}
